@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/wooppay/static/css/main.b77a1eda.css",
+    "main.css": "/wooppay/static/css/main.86f92830.css",
     "main.js": "/wooppay/static/js/main.e0a70071.js",
     "static/media/benefits.png": "/wooppay/static/media/benefits.e11dd3b87477b78ceea8.png",
     "static/media/heading.svg": "/wooppay/static/media/heading.ec53accd7243a7febff6.svg",
     "static/media/noImage.svg": "/wooppay/static/media/noImage.4a45b4e1d15c1257bb682c97332950d7.svg",
     "static/media/search.svg": "/wooppay/static/media/search.df33ec59e29406d44f8d72f7d0d5c264.svg",
     "index.html": "/wooppay/index.html",
-    "main.b77a1eda.css.map": "/wooppay/static/css/main.b77a1eda.css.map",
+    "main.86f92830.css.map": "/wooppay/static/css/main.86f92830.css.map",
     "main.e0a70071.js.map": "/wooppay/static/js/main.e0a70071.js.map"
   },
   "entrypoints": [
-    "static/css/main.b77a1eda.css",
+    "static/css/main.86f92830.css",
     "static/js/main.e0a70071.js"
   ]
 }
