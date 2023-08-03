@@ -1,0 +1,76 @@
+@import 'src/assets/styles/variables.scss';
+
+.wrap {
+    background-color: $dark2;
+    width: 100%;
+}
+
+.container {
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 100px 25px 100px 25px;
+}
+
+.title {
+    color: $white;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 0 50px 0;
+}
+
+.categories {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    padding: 0 0 20px 0;
+    -webkit-overflow-scrolling: touch;
+    gap: 20px;
+
+    .button {
+        border: none;
+        outline: none;
+        background-color: $dark;
+        padding: 15px;
+        flex: 0 0 auto;
+        border-radius: 8px;
+        box-shadow: $shadow;
+        color: $gray2;
+        font-size: 18px;
+        font-weight: 500;
+        transition: linear 0.2s;
+
+        &:hover {
+            color: $white;
+            background-color: $focus;
+            cursor: pointer;
+            transition: linear 0.2s;
+        }
+    }
+
+    .active {
+        background-color: $focus;
+        color: $white;
+    }
+
+    .image {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+    }
+}
+
+.skeleton {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+}
+
+.error {
+    color: $error;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+}

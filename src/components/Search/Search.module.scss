@@ -1,0 +1,106 @@
+@import 'src/assets/styles/variables.scss';
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    @media (max-width: 505px) {
+        gap: 10px;
+    }
+
+    .search {
+        display: flex;
+        align-items: center;
+        box-shadow: $shadow;
+        background-color: $dark;
+        border-radius: 8px;
+        padding: 13px 20px 13px 20px;
+        gap: 10px;
+        width: 230px;
+        position: relative;
+
+        @media (max-width: 505px) {
+            width: 190px;
+        }
+
+        .searchIcon {
+            width: 25px;
+            height: 25px;
+        }
+
+        .input {
+            border: none;
+            outline: none;
+            background-color: transparent;
+            width: 200px;
+
+            color: $gray2;
+            font-size: 19px;
+            font-weight: 500;
+            margin: 0;
+        }
+    }
+
+    .button {
+        border: none;
+        outline: none;
+        background-color: $focus;
+        height: 50px;
+        width: 90px;
+        border-radius: 8px;
+        box-shadow: $shadow;
+        color: $gray2;
+        font-size: 17px;
+        font-weight: 500;
+        margin: 0;
+        cursor: pointer;
+        transition: linear 0.2s;
+
+        @media (max-width: 505px) {
+            width: 70px;
+        }
+
+        &:hover {
+            transform: scale(1.06);
+        }
+    }
+
+    .searchResult {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background-color: $dark3;
+        width: 350px;
+        border-radius: 8px;
+        box-shadow: $shadow;
+        padding: 15px;
+
+        .wrapper {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 0 0 20px 0;
+        }
+
+        .image {
+            width: 60px;
+            height: 60px;
+            border-radius: 8px;
+        }
+
+        .title {
+            color: $gray2;
+            font-size: 18px;
+            font-weight: 500;
+            margin: 0;
+        }
+
+        .description {
+            color: $gray;
+            font-size: 16px;
+            font-weight: 500;
+            margin: 0;
+        }
+    }
+}

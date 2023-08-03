@@ -1,0 +1,49 @@
+@import 'src/assets/styles/variables.scss';
+
+.benefits {
+    max-width: 1450px;
+    padding: 200px 0 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    background-image: url(../../assets/images/benefits.png);
+    background-repeat: no-repeat;
+    background-position: 0%;
+
+    @media (max-width: 1095px) {
+        background-image: none;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 100px 25px 100px 25px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .title {
+        color: $white;
+        font-size: 23px;
+        font-weight: 600;
+        margin: 0 0 50px 0;
+        text-align: start;
+    }
+
+    .subtitle {
+        color: $gray;
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0 0 30px 0;
+        max-width: 650px;
+        text-align: start;
+
+        &:last-child {
+            margin: 0;
+        }
+    }
+}

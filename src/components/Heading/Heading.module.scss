@@ -1,0 +1,77 @@
+@import 'src/assets/styles/variables.scss';
+
+.heading {
+    max-width: 1450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 200px 25px 200px 25px;
+    background: url(../../assets/images/heading.svg) no-repeat 100%;
+    // background-repeat: no-repeat;
+    // background-position: 100%;
+    @media (max-width: 1010px) {
+        background: url(../../assets/images/heading.svg) no-repeat fixed 90%;
+    }
+
+    .title {
+        color: $white;
+        font-size: 25px;
+        font-weight: 700;
+        margin: 0 0 35px 0;
+    }
+
+    .subtitle {
+        color: $gray2;
+        font-size: 22px;
+        font-weight: 500;
+        margin: 0 0 50px 0;
+        max-width: 550px;
+    }
+
+    .wrap {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .buttonCategories {
+        border: none;
+        outline: none;
+        background-color: $focus;
+        width: 170px;
+        height: 50px;
+        flex: 0 0 auto;
+        border-radius: 8px;
+        box-shadow: $shadow;
+        color: $white;
+        font-size: 18px;
+        font-weight: 500;
+        transition: linear 0.2s;
+        cursor: pointer;
+        
+        &:hover {
+            transform: scale(1.06);
+        }
+    }
+
+    .buttonAuthor {
+        border: 2px solid $focus;
+        outline: none;
+        background-color: transparent;
+        width: 140px;
+        height: 50px;
+        flex: 0 0 auto;
+        border-radius: 8px;
+        box-shadow: $shadow;
+        color: $white;
+        font-size: 18px;
+        font-weight: 500;
+        transition: linear 0.2s;
+        cursor: pointer;
+        
+        &:hover {
+            transform: scale(1.06);
+        }
+    }
+}
