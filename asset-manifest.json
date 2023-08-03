@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.1d83d81b.css",
-    "main.js": "/static/js/main.26919e8a.js",
-    "static/media/benefits.png": "/static/media/benefits.e11dd3b87477b78ceea8.png",
-    "static/media/heading.svg": "/static/media/heading.ec53accd7243a7febff6.svg",
-    "static/media/noImage.svg": "/static/media/noImage.4a45b4e1d15c1257bb682c97332950d7.svg",
-    "static/media/search.svg": "/static/media/search.df33ec59e29406d44f8d72f7d0d5c264.svg",
-    "index.html": "/index.html",
-    "main.1d83d81b.css.map": "/static/css/main.1d83d81b.css.map",
-    "main.26919e8a.js.map": "/static/js/main.26919e8a.js.map"
+    "main.css": "/wooppay/static/css/main.90fa5e3d.css",
+    "main.js": "/wooppay/static/js/main.36e55561.js",
+    "static/media/benefits.png": "/wooppay/static/media/benefits.e11dd3b87477b78ceea8.png",
+    "static/media/heading.svg": "/wooppay/static/media/heading.ec53accd7243a7febff6.svg",
+    "static/media/noImage.svg": "/wooppay/static/media/noImage.4a45b4e1d15c1257bb682c97332950d7.svg",
+    "static/media/search.svg": "/wooppay/static/media/search.df33ec59e29406d44f8d72f7d0d5c264.svg",
+    "index.html": "/wooppay/index.html",
+    "main.90fa5e3d.css.map": "/wooppay/static/css/main.90fa5e3d.css.map",
+    "main.36e55561.js.map": "/wooppay/static/js/main.36e55561.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d83d81b.css",
-    "static/js/main.26919e8a.js"
+    "static/css/main.90fa5e3d.css",
+    "static/js/main.36e55561.js"
   ]
 }
